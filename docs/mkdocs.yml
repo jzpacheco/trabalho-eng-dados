@@ -1,0 +1,5 @@
+site_name: Trabalho Engenharia de Dados
+nav:
+  - Home: index.md
+  - About: about.md
+theme: dracula
