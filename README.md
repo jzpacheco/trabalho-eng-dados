@@ -1,11 +1,36 @@
 # Gestão de Saúde Pública
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+# Projeto de Data Engineering - Gestão de Saúde Pública
 
 
 O sistema de Gestão de Saúde Pública foi pensado para oferecer um cuidado mais próximo e eficiente às pessoas. Ele tem como objetivo facilitar o acompanhamento do histórico médico de cada paciente, registrando consultas, diagnósticos, tratamentos e prescrições de forma organizada e acessível.
 
 A ideia é criar um espaço onde profissionais de saúde e pacientes possam contar com informações centralizadas, garantindo um cuidado mais atento e personalizado. Assim, será possível acompanhar a evolução das condições de saúde, planejar tratamentos com mais eficiência e oferecer um suporte mais humano e acolhedor em cada etapa do cuidado.
+Este projeto tem como objetivo implementar um pipeline de dados para a gestão de saúde pública, utilizando dados fictícios sobre pacientes, médicos, diagnósticos, medicamentos, e consultas médicas. O pipeline vai desde a ingestão de dados em um ambiente relacional até a criação de dashboards interativos para visualização dos KPIs.
+
+## Estrutura do Projeto
+
+- **Banco de Dados Relacional**: Estrutura com as tabelas `Pacientes`, `Consultas`, `Médicos`, `Diagnósticos`, `Medicamentos` e `Prescrições`.
+- **Pipeline de Dados**: Conduz os dados através das camadas `Landing`, `Bronze`, `Silver` e `Gold` em um Data Lake.
+- **Dashboard**: Visualização dos KPIs e métricas com gráficos interativos.
+
+## Tabelas no Banco de Dados
+
+- **Pacientes**: Contém informações sobre os pacientes, como nome, data de nascimento, sexo, etc.
+- **Consultas**: Detalhes das consultas médicas realizadas pelos pacientes.
+- **Médicos**: Dados dos médicos responsáveis pelas consultas.
+- **Diagnósticos**: Informações sobre diagnósticos médicos.
+- **Medicamentos**: Medicamentos prescritos durante as consultas.
+- **Prescrições**: Detalhes das prescrições realizadas, incluindo quantidade e instruções.
+
+## Tecnologias Utilizadas
+
+- **Banco de Dados Relacional** (MySQL/PostgreSQL)
+- **Apache Spark** (para transformação de dados)
+- **Metabase / Google Data Studio** (para criação de dashboards)
+- **Docker** (para ambientes locais)
+- **MkDocs** (para documentação)
+- **GitHub Pages** (para hospedagem da documentação)
 
 ## Começando
 
@@ -49,11 +74,11 @@ Termine com um exemplo de como obter dados do sistema ou como usá-los para uma 
 ## Implantação
 
 Adicione notas adicionais sobre como implantar isso em um sistema ativo
-
+=======
 ## Ferramentas utilizadas
 
 Mencione as ferramentas que você usou para criar seu projeto
-
+=======
 * Ferramenta 1 + link - Breve descrição
 * Ferramenta 2 + link - Breve descrição
 * Ferramenta 3 + link - Breve descrição
