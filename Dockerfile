@@ -8,17 +8,19 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-ADD https://astral.sh/uv/install.sh /uv-installer.sh
+# ADD https://astral.sh/uv/install.sh /uv-installer.sh
+# RUN sh /uv-installer.sh && rm /uv-installer.sh
+# ENV PATH="/root/.local/bin:$PATH"
 
-RUN sh /uv-installer.sh && rm /uv-installer.sh
 
-ENV PATH="/root/.local/bin:$PATH"
 
 WORKDIR /opt/airflow/
 COPY . /opt/airflow/
 
 RUN rm -rf .venv
-RUN uv sync --frozen
+# RUN uv sync --frozen
+
 
 USER airflow
+RUN pip install apache-airflow==${AIRFLOW_VERSION} apache-airflow-providers-amazon -r requirements.txt 
 ENV PYTHONPATH="/opt/airflow/scripts:$PYTHONPATH"
