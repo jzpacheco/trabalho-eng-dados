@@ -4,8 +4,8 @@ from minio import Minio
 def landing_upload():
     client = Minio(
         "localhost:9000",
-        access_key="minioadmin",
-        secret_key="minioadmin",
+        access_key=os.getenv("MINIO_ACCESS_KEY"),
+        secret_key=os.getenv("MINIO_SECRET_KEY"),
         secure=False
     )
 
