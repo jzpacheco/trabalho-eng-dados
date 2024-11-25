@@ -1,12 +1,16 @@
 import os
 from minio import Minio
+import urllib3
 
 def landing_upload():
+    
+    http_client = urllib3.PoolManager(cert_reqs='CERT_NONE')
     client = Minio(
-        "localhost:9000",
+        "minio:9000",
         access_key=os.getenv("MINIO_ACCESS_KEY"),
         secret_key=os.getenv("MINIO_SECRET_KEY"),
-        secure=False
+        secure=False,
+        http_client=http_client
     )
 
     # Directory where the data is stored in project

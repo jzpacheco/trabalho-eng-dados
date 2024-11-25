@@ -252,6 +252,9 @@ services:
       - MINIO_ROOT_USER=minioadmin
       - MINIO_ROOT_PASSWORD=minioadmin
     command: server --address ":9000" --console-address ":9001" /data
+    volumes:
+      - ./minio-data:/data
+      - ./minio-config:/root/.minio
 
 volumes:
   postgres-db-volume:
