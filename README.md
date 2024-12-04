@@ -1,8 +1,6 @@
 # Gestão de Saúde Pública
 
 # Projeto de Data Engineering - Gestão de Saúde Pública
-
-
 O sistema de Gestão de Saúde Pública foi pensado para oferecer um cuidado mais próximo e eficiente às pessoas. Ele tem como objetivo facilitar o acompanhamento do histórico médico de cada paciente, registrando consultas, diagnósticos, tratamentos e prescrições de forma organizada e acessível.
 
 A ideia é criar um espaço onde profissionais de saúde e pacientes possam contar com informações centralizadas, garantindo um cuidado mais atento e personalizado. Assim, será possível acompanhar a evolução das condições de saúde, planejar tratamentos com mais eficiência e oferecer um suporte mais humano e acolhedor em cada etapa do cuidado.
@@ -78,10 +76,11 @@ Adicione notas adicionais sobre como implantar isso em um sistema ativo
 ## Ferramentas utilizadas
 
 Mencione as ferramentas que você usou para criar seu projeto
-=======
-* Ferramenta 1 + link - Breve descrição
-* Ferramenta 2 + link - Breve descrição
-* Ferramenta 3 + link - Breve descrição
+
+* [Visual Studio Code](https://code.visualstudio.com/) - Editor de código-fonte poderoso com suporte a várias linguagens e extensões.
+* [Python](https://www.python.org/) - Linguagem de programação versátil e amplamente utilizada em ciência de dados, automação e desenvolvimento web.
+* [Power BI](https://powerbi.microsoft.com/) - Ferramenta de análise de dados da Microsoft, utilizada para criar relatórios e dashboards interativos.
+
 
 ## Colaboração
 
@@ -94,7 +93,7 @@ Se desejar publicar suas modificações em um repositório remoto no GitHub, sig
 3. Execute os seguintes comandos:
 
 ```bash
-git remote set-url origin https://github.com/seu-usuario/nome-do-novo-repositorio.git
+git remote set-url origin https://github.com/jzpacheco/trabalho-eng-dados
 git add .
 git commit -m "Adicionar minhas modificações"
 git push -u origin master
@@ -110,8 +109,10 @@ Fale sobre a versão e o controle de versões para o projeto. Para as versões d
 
 Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
 
-* **Aluno 1** - *Trabalho Inicial* - [(https://github.com/linkParaPerfil)](https://github.com/linkParaPerfil)
-* **Aluno 2** - *Documentação* - [https://github.com/linkParaPerfil](https://github.com/linkParaPerfil)
+* **Alexandre Hermes** - [https://github.com/Alexandre200319](https://github.com/Alexandre200319)
+* **Gabriel Angelo Kaufmann** - [https://github.com/GabrielAKaufmann](https://github.com/GabrielAKaufmann)
+* **Jefferson Barzan Alexandrino** - [https://github.com/JeffAlexandrino](https://github.com/JeffAlexandrino)
+* **Jefferson Zeferino Pacheco** - [https://github.com/jzpacheco](https://github.com/jzpacheco)
 
 Você também pode ver a lista de todos os [colaboradores](https://github.com/usuario/projeto/colaboradores) que participaram deste projeto.
 
