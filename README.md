@@ -118,7 +118,7 @@ Você também pode ver a lista de todos os [colaboradores](https://github.com/us
 
 ## Licença
 
-Este projeto está sob a licença (sua licença) - veja o arquivo [LICENSE](https://github.com/jlsilva01/projeto-ed-satc/blob/main/LICENSE) para detalhes.
+Este projeto foi desenvolvido como parte de um trabalho acadêmico e é destinado exclusivamente para fins educacionais. O uso, modificação ou distribuição sem permissão prévia não é autorizado.
 
 ## Referências
 
