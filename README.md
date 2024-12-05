@@ -1,4 +1,3 @@
-# Gestão de Saúde Pública
 # Projeto de Data Engineering - Gestão de Saúde Pública
 O sistema de Gestão de Saúde Pública foi pensado para oferecer um cuidado mais próximo e eficiente às pessoas. Ele tem como objetivo facilitar o acompanhamento do histórico médico de cada paciente, registrando consultas, diagnósticos, tratamentos e prescrições de forma organizada e acessível.
 A ideia é criar um espaço onde profissionais de saúde e pacientes possam contar com informações centralizadas, garantindo um cuidado mais atento e personalizado. Assim, será possível acompanhar a evolução das condições de saúde, planejar tratamentos com mais eficiência e oferecer um suporte mais humano e acolhedor em cada etapa do cuidado.
