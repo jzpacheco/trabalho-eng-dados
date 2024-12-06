@@ -1,1 +1,7 @@
 minio
+mkdocs-dracula-theme
+faker
+minio
+pyspark
+apache-airflow
+apache-airflow-providers-apache-spark
