@@ -56,27 +56,66 @@ Coloqui uma imagem do seu projeto, como no exemplo abaixo:
 ![image](https://github.com/jlsilva01/projeto-ed-satc/assets/484662/541de6ab-03fa-49b3-a29f-dec8857360c1)
 
 ## Pré-requisitos
-De que coisas você precisa para instalar o software e como instalá-lo?
+Antes de começar, você precisará ter o seguinte instalado em sua máquina:
 
-```
-Dar exemplos
+- **Docker Compose**  
+  - Para instalar o Docker Compose, siga as instruções oficiais:  
+    - [Docker Compose Installation Guide](https://docs.docker.com/compose/install/)
+
+### Verificando a instalação
+
+Depois de instalar o Docker Compose, você pode verificar se ele foi instalado corretamente executando o seguinte comando no terminal:  
+
+```bash
+docker-compose --version
 ```
 
 ## Instalação
-Uma série de exemplos passo-a-passo que informam o que você deve executar para ter um ambiente de desenvolvimento em execução.
-Diga como essa etapa será:
 
-```
-Dar exemplos
+Siga os passos abaixo para configurar e executar o ambiente de desenvolvimento:
+
+### Passo 1: Clonar o repositório
+
+Primeiro, clone este repositório para a sua máquina local:  
+
+```bash
+git clone https://github.com/jzpacheco/trabalho-eng-dados
+cd seu-repositorio
 ```
 
-E repita:
+### Passo 2: Configurar o ambiente
 
-```
-Até finalizar
+Certifique-se de que o Docker e o Docker Compose estão instalados e funcionando na sua máquina.  
+
+Caso necessário, configure variáveis de ambiente no arquivo `.env` (se existir).  
+
+### Passo 3: Iniciar o ambiente
+
+Execute o seguinte comando para iniciar os contêineres do Docker:
+
+```bash
+docker compose up -d
 ```
 
-Termine com um exemplo de como obter dados do sistema ou como usá-los para uma pequena demonstração.
+Este comando fará o seguinte:  
+- Construirá os contêineres necessários (caso ainda não estejam construídos).  
+- Executará os serviços em segundo plano.  
+
+### Passo 4: Verificar os serviços
+
+Após executar o comando, você pode verificar se os serviços estão ativos:  
+
+```bash
+docker compose ps
+```
+
+Isso mostrará o status de todos os contêineres em execução.
+
+### Passo 5: Acessar o ambiente
+
+- A aplicação estará disponível em:  
+  - [http://localhost:porta](http://localhost:porta) (substitua `porta` pelo valor configurado).
+
 
 ## Implantação
 Adicione notas adicionais sobre como implantar isso em um sistema ativo

@@ -1,3 +1,6 @@
+#Transformação para a Camada Silver (transform_silver.py)
+#Objetivo: Normalizar e aplicar filtros para criar datasets consistentes e prontos para análise.
+
 # Biblioteca necessária para usar Spark
 from pyspark.sql import SparkSession
 

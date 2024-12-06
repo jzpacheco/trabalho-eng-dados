@@ -1,4 +1,8 @@
+#Extração para a Camada Landing (extract_landing.py)
+#Objetivo: Coletar os dados brutos dos sistemas de origem (arquivos CSV) e armazená-los na camada Landing.
+
 # Importa a biblioteca necessária
+
 from pyspark.sql import SparkSession
 
 # Inicializa a sessão do Spark com um nome descritivo
