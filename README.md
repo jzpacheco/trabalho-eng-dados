@@ -16,6 +16,11 @@ Este projeto tem como objetivo implementar um pipeline de dados para a gestão d
 - **Medicamentos**: Medicamentos prescritos durante as consultas.
 - **Prescrições**: Detalhes das prescrições realizadas, incluindo quantidade e instruções.
 
+### Desenho da Arquitetura
+O projeto inclui um pipeline de dados e um banco de dados relacional para gestão das informações de saúde pública. Abaixo está o diagrama que descreve o modelo de dados relacional:
+![Modelo de Dados](diagrama.png)
+
+
 ## Tecnologias Utilizadas
 - **Banco de Dados Relacional** (MySQL/PostgreSQL)
 - **Apache Spark** (para transformação de dados)
@@ -98,7 +103,18 @@ git push -u origin master
 Isso configurará o repositório remoto e enviará suas modificações para lá.
 
 ## Versão
-Fale sobre a versão e o controle de versões para o projeto. Para as versões disponíveis, observe as [tags neste repositório](https://github.com/suas/tags/do/projeto). 
+Atualmente, o projeto encontra-se em fase de desenvolvimento inicial, com foco na implementação das principais funcionalidades descritas na estrutura do sistema. Não há um controle formal de versões aplicado até o momento. As alterações e melhorias estão sendo feitas de forma incremental, conforme as demandas do pipeline e do banco de dados.  
+### Status Atual
+O projeto já apresenta os seguintes avanços:  
+- Criação do banco de dados relacional com tabelas estruturadas para `Pacientes`, `Consultas`, `Médicos`, `Diagnósticos`, `Medicamentos` e `Prescrições`.  
+- Pipeline de dados em desenvolvimento, conduzindo informações entre as camadas `Landing`, `Bronze`, `Silver` e `Gold`.  
+- Planejamento inicial para os dashboards interativos, com definição de KPIs e métricas de saúde pública.
+### Planejamento Futuro
+- Finalizar e otimizar o pipeline de dados, garantindo integridade e consistência das informações.
+- Desenvolver dashboards interativos para exibição dos KPIs.
+- Implementar um esquema de controle de versões formal (como SemVer) para melhor acompanhamento do progresso e das funcionalidades do projeto.  
+### Como Acompanhar o Progresso
+Para acompanhar as mudanças realizadas, consulte o histórico de commits diretamente no repositório.
 
 ## Autores
 * **Alexandre Hermes** - [https://github.com/Alexandre200319](https://github.com/Alexandre200319)
