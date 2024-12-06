@@ -1,19 +1,21 @@
 site_name: Trabalho Engenharia de Dados
+site_url: https://jzpachecomkdocs build
+.github.io/mklorum/
 site_description: Documentação do Projeto de Data Engineering - Gestão de Saúde Pública
 theme: dracula
 
 nav:
-  - Home: index.md
+  - Home: docs/docs/index.md
   - Introdução:
-      - Pipeline de Dados: pipeline.md
-      - Arquitetura: arquitetura.md
+      - Pipeline de Dados: docs/docs/pipeline.md
+      - Arquitetura: docs/docs/arquitetura.md
   - Guia do Desenvolvedor:
-      - Contribuição: contribuicao.md
-      - Instalação: instalacao.md
+      - Contribuição: docs/docs/contribuicao.md
+      - Instalação: docs/docs/instalacao.md
   - Dashboards:
-      - Dashboard: dashboard.md
+      - Dashboard: docs/docs/dashboard.md
   - Sobre:
-      - About: about.md
+      - About: docs/docs/about.md
 
 markdown_extensions:
   - toc:
