@@ -1,3 +1,5 @@
+#2. Transformação para a Camada Bronze (transform_bronze.py)
+#Objetivo: Fazer uma limpeza inicial nos dados da camada Landing e movê-los para a camada Bronze.
 # Biblioteca para trabalhar com Spark
 from pyspark.sql import SparkSession
 
