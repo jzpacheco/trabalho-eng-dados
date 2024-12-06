@@ -1,6 +1,6 @@
 import csv
 import random
-from faker import Faker # necessário "pip install faker" no terminal
+from faker import Faker
 
 fake = Faker()
 
