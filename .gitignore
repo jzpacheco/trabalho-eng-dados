@@ -173,6 +173,13 @@ poetry.toml
 # LSP config files
 pyrightconfig.json
 
+# MinIO
+/minio.sys/
+
+# Bucket for MinIO
+/data/.minio.sys/
+/data/data-engineering-project/
+
 # End of https://www.toptal.com/developers/gitignore/api/python
 
 # Generated using ignr.py - github.com/Antrikshy/ignr.py
