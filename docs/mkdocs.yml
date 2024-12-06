@@ -1,5 +1,27 @@
 site_name: Trabalho Engenharia de Dados
+site_description: Documentação do Projeto de Data Engineering - Gestão de Saúde Pública
+theme: dracula
+
 nav:
   - Home: index.md
-  - About: about.md
-theme: dracula
+  - Introdução:
+      - Pipeline de Dados: pipeline.md
+      - Arquitetura: arquitetura.md
+  - Guia do Desenvolvedor:
+      - Contribuição: contribuicao.md
+      - Instalação: instalacao.md
+  - Dashboards:
+      - Dashboard: dashboard.md
+  - Sobre:
+      - About: about.md
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - footnotes
+
+plugins:
+  - search

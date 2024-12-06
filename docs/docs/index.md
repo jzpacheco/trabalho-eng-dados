@@ -1,17 +1,13 @@
-# MkLorum
+# Projeto de Data Engineering - Gestão de Saúde Pública
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Bem-vindo à documentação oficial do sistema de Gestão de Saúde Pública. Aqui você encontrará informações detalhadas sobre como configurar, utilizar e contribuir para este projeto.
 
-## Commands
+## Objetivo
+Este sistema foi desenvolvido para facilitar o gerenciamento do histórico médico de pacientes, registrando consultas, diagnósticos, tratamentos e prescrições de forma eficiente.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+---
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Principais Funcionalidades
+- Estruturação de um banco de dados relacional.
+- Pipeline de dados em várias camadas (`Landing`, `Bronze`, `Silver`, `Gold`).
+- Dashboards interativos para visualização de KPIs.
