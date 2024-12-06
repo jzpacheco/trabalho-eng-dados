@@ -1,35 +1,39 @@
-# Sobre o Projeto MkLorum
-O **MkLorum** é um projeto acadêmico desenvolvido no âmbito do curso de Engenharia de Dados. Ele tem como objetivo criar uma solução para **Gestão de Saúde Pública**, utilizando técnicas de engenharia de dados para processar, armazenar e visualizar dados relacionados à saúde pública de maneira eficiente e acessível. 
+## Descrição
 
-## Objetivo
-O principal objetivo do projeto é desenvolver um pipeline de dados completo que possa ser utilizado para gerenciar e visualizar informações de saúde pública. O sistema permite o acompanhamento detalhado do histórico médico de pacientes, com registro de consultas, diagnósticos, tratamentos e prescrições. Utilizando dados fictícios de pacientes, médicos, diagnósticos, medicamentos e consultas, o pipeline irá:
-
-1. **Ingestão de dados**: Receber dados em um formato relacional.
-2. **Transformação de dados**: Processar os dados em diferentes camadas (Landing, Bronze, Silver, Gold).
-3. **Armazenamento**: Armazenar os dados de maneira estruturada.
-4. **Visualização**: Criar dashboards interativos para análise dos KPIs.
-
-## Impacto Esperado
-O projeto visa facilitar o trabalho dos profissionais de saúde ao fornecer uma plataforma centralizada de informações sobre pacientes, consultas e diagnósticos. Além disso, ao implementar KPIs e métricas interativas, busca-se melhorar a análise e o planejamento de tratamentos, possibilitando um cuidado de saúde mais eficiente e personalizado.
+Este projeto de **Gestão de Saúde Pública** visa criar um pipeline de dados eficiente para gerenciar informações sobre pacientes, médicos, consultas, diagnósticos, medicamentos e prescrições. Ele oferece uma abordagem centralizada para análise de dados de saúde, promovendo cuidados mais eficazes. Através de dashboards interativos, o sistema permite visualizar KPIs essenciais para a gestão da saúde pública, como número de consultas, tratamentos prescritos, diagnóstico por faixa etária, entre outras métricas.
 
 ## Tecnologias Utilizadas
-O projeto foi desenvolvido utilizando as seguintes tecnologias:
-- **Banco de Dados Relacional** (MySQL/PostgreSQL): Para armazenar dados de pacientes, médicos, consultas, diagnósticos, medicamentos e prescrições.
-- **Apache Spark**: Para processar e transformar os dados em diferentes camadas de um Data Lake.
-- **Metabase / Google Data Studio**: Para visualização dos KPIs e criação de dashboards interativos.
-- **Docker**: Para garantir ambientes de desenvolvimento e execução consistentes.
-- **MkDocs**: Para gerar e hospedar a documentação do projeto.
 
-## Como Surgiu o Projeto
-O projeto surgiu como uma necessidade de aplicar os conceitos aprendidos no curso de Engenharia de Dados, criando uma solução realista para a gestão de dados de saúde pública. A ideia é integrar várias etapas da engenharia de dados, desde a ingestão até a visualização, em um pipeline coeso e escalável.
+- **MySQL/PostgreSQL** - Banco de Dados Relacional
+- **Apache Spark** - Processamento e Transformação de Dados
+- **Metabase / Google Data Studio** - Visualização de Dados e KPIs
+- **Docker** - Ambientes de Desenvolvimento
+- **MkDocs** - Documentação do Projeto
+- **GitHub Pages** - Hospedagem da Documentação
 
-## Contribuidores
-O projeto é fruto do esforço coletivo de uma equipe de desenvolvedores, que colaboraram para garantir a implementação de todas as etapas do pipeline de dados, além da criação de uma documentação clara e acessível para facilitar a compreensão e o uso do sistema.
+## Métricas e KPIs
 
-- **Alexandre Hermes**
-- **Gabriel Angelo Kaufmann**
-- **Jefferson Barzan Alexandrino**
-- **Jefferson Zeferino Pacheco**
+- **Número de Consultas**: Total de consultas realizadas em determinado período.
+- **Taxa de Diagnósticos por Faixa Etária**: Percentual de diagnósticos classificados por faixa etária.
+- **Medicamentos mais Prescritos**: Análise dos medicamentos mais prescritos pelos médicos.
+- **Acompanhamento de Tratamentos**: Visualização do progresso dos tratamentos ao longo do tempo.
+
+Essas métricas são fundamentais para uma análise rápida e estratégica dos dados de saúde pública, permitindo uma gestão mais precisa e eficiente.
+
+## Como Começar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/jzpacheco/trabalho-eng-dados.git
+
+## Configure o ambiente de desenvolvimento:
+1, docker-compose up
+
+
+## Colaboração
+Crie um fork deste repositório.
+Adicione suas modificações.
+Envie um pull request com suas alterações.
 
 ## Licença
-Este projeto foi desenvolvido como parte de um trabalho acadêmico e é destinado exclusivamente para fins educacionais. O uso, modificação ou distribuição sem permissão prévia não é autorizado.
+Este projeto está sob a licença MIT. Consulte o arquivo LICENSE para mais detalhes.
