@@ -83,7 +83,7 @@ Adicione notas adicionais sobre como implantar isso em um sistema ativo
 =======
 ## Ferramentas utilizadas
 
-Mencione as ferramentas que você usou para criar seu projeto
+Ferramentas utilizadas.
 
 * [Visual Studio Code](https://code.visualstudio.com/) - Editor de código-fonte poderoso com suporte a várias linguagens e extensões.
 * [Python](https://www.python.org/) - Linguagem de programação versátil e amplamente utilizada em ciência de dados, automação e desenvolvimento web.
