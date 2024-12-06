@@ -16,9 +16,13 @@ Este projeto tem como objetivo implementar um pipeline de dados para a gestão d
 - **Medicamentos**: Medicamentos prescritos durante as consultas.
 - **Prescrições**: Detalhes das prescrições realizadas, incluindo quantidade e instruções.
 
-### Desenho da Arquitetura
-O projeto inclui um pipeline de dados e um banco de dados relacional para gestão das informações de saúde pública. Abaixo está o diagrama que descreve o modelo de dados relacional:
-![Modelo de Dados](diagrama.png)
+### Modelo de Dados
+O modelo de dados abaixo representa a estrutura do banco de dados relacional utilizado neste projeto. Ele descreve as tabelas e suas relações, fundamentais para o gerenciamento de informações como pacientes, médicos, consultas e prescrições.
+
+<div align="center">
+  <img src="diagrama.png" alt="Modelo de Dados" width="70%">
+</div>
+
 
 ## Tecnologias Utilizadas
 - **Banco de Dados Relacional** (MySQL/PostgreSQL)
