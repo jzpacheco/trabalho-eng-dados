@@ -1,3 +1,6 @@
+# Criação da OBT (One Big Table) na Camada Gold (transform_gold.py)
+#Objetivo: Consolidar os dados das diferentes tabelas em uma única tabela ampla (OBT) na camada Gold, que será utilizada para análise e dashboards.
+
 # Biblioteca para trabalhar com Spark (basicamente, o motor que manipula os dados)
 from pyspark.sql import SparkSession
 
