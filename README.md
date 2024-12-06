@@ -20,7 +20,6 @@ Este projeto tem como objetivo implementar um pipeline de dados para a gestão d
 O projeto inclui um pipeline de dados e um banco de dados relacional para gestão das informações de saúde pública. Abaixo está o diagrama que descreve o modelo de dados relacional:
 ![Modelo de Dados](diagrama.png)
 
-
 ## Tecnologias Utilizadas
 - **Banco de Dados Relacional** (MySQL/PostgreSQL)
 - **Apache Spark** (para transformação de dados)
@@ -37,10 +36,12 @@ Antes de começar, verifique se você tem as seguintes dependências instaladas:
 - **Python**: Certifique-se de ter a versão mais recente de Python instalado. Você pode verificar a instalação com `python --version` .
 ### Clonando o repositório
 1. Abra o terminal ou prompt de comando.
+
 2. Clone o repositório para sua máquina local com o seguinte comando:
    ```bash
    git clone https:https://github.com/jzpacheco/trabalho-eng-dados
    ```
+   
 3. Navegue até o diretório do projeto:
    ```bash
    cd trabalho-eng-dados
